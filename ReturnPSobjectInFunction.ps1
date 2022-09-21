@@ -7,6 +7,10 @@ Function Get-PSObjectExample {
     $obj | Add-Member -MemberType NoteProperty -Name 'value1' -Value $value1
     $obj | Add-Member -MemberType NoteProperty -Name 'value2' -Value $value2
     $obj | Add-Member -MemberType NoteProperty -Name 'value3' -Value $value3
+    
+    $obj | Add-Member -MemberType NoteProperty -Name 'value1' -Value $value1
+    $obj | Add-Member -MemberType NoteProperty -Name 'value2' -Value $value2
+    $obj | Add-Member -MemberType NoteProperty -Name 'value3' -Value $value3
 
 
     # Return the object
